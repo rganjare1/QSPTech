@@ -14,7 +14,7 @@ import com.QSPTech.ProjectName.ModuleName.pages.HomePage;
 import com.QSPTech.ProjectName.ModuleName.testBase.TestBase;
 import com.relevantcodes.extentreports.LogStatus;
 
-public class TC005_Create_an_Account extends TestBase {
+public class TC006_SendingMailFeature extends TestBase {
 	
 	//@BeforeTest
 	@BeforeClass
