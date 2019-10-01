@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Regression suite]">
+  <listeners>
+    <listener class-name="com.QSPTech.ProjectName.ModuleName.CustomListeners.Listener"/>
+    <listener class-name="com.QSPTech.ProjectName.ModuleName.CustomListeners.RetryListener"/>
+  </listeners>
+  <test name="Regression test(failed)">
+    <classes>
+      <class name="com.QSPTech.ProjectName.ModuleName.testCases.TC004_Create_an_Account">
+        <methods>
+          <include name="TC004_Create_An_Account"/>
+          <include name="isSkip"/>
+        </methods>
+      </class> <!-- com.QSPTech.ProjectName.ModuleName.testCases.TC004_Create_an_Account -->
+      <class name="com.QSPTech.ProjectName.ModuleName.testCases.TC002_Create_an_Account">
+        <methods>
+          <include name="isSkip"/>
+        </methods>
+      </class> <!-- com.QSPTech.ProjectName.ModuleName.testCases.TC002_Create_an_Account -->
+      <class name="com.QSPTech.ProjectName.ModuleName.testCases.TC001_Create_an_Account">
+        <methods>
+          <include name="LoadingFiles"/>
+          <include name="writeIntoExtentReport"/>
+          <include name="isSkip"/>
+        </methods>
+      </class> <!-- com.QSPTech.ProjectName.ModuleName.testCases.TC001_Create_an_Account -->
+      <class name="com.QSPTech.ProjectName.ModuleName.testCases.TC003_Create_an_Account">
+        <methods>
+          <include name="isSkip"/>
+          <include name="TC003_Create_An_Account"/>
+        </methods>
+      </class> <!-- com.QSPTech.ProjectName.ModuleName.testCases.TC003_Create_an_Account -->
+    </classes>
+  </test> <!-- Regression test(failed) -->
+</suite> <!-- Failed suite [Regression suite] -->
