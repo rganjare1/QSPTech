@@ -25,6 +25,7 @@ public class Listener extends TestBase implements ITestListener {
 
 	public void onFinish(ITestContext arg0) {
 		Reporter.log("Test is finished:" + arg0.getName());
+		test.log(LogStatus.INFO, "Execution has been completed");
 
 	}
 
@@ -57,8 +58,6 @@ public class Listener extends TestBase implements ITestListener {
 
 				FileHandler.copy(scrFile, destFile);
 				test.log(LogStatus.FAIL, test.addScreenCapture(reportDirectory));
-			//	Reporter.log("<a href='" + destFile.getAbsolutePath() + "'> <img src='" + destFile.getAbsolutePath()
-				//		+ "' height='100' width='100'/> </a>");
 
 			} catch (IOException e) {
 				e.printStackTrace();
@@ -83,12 +82,12 @@ public class Listener extends TestBase implements ITestListener {
 
 		System.out.println(testCaseName + " Test case is skipped by listener as Run mode set to N");
 		Reporter.log(testCaseName + " Test case is skipped by listener as Run mode set to N");
-		// System.out.println(testCaseName +
-		// "****************************************************");
+		
 	   if (skip == "No") {
 		Reporter.log("Test case is skipped by listener due to:-:" + result.getMethod().getMethodName());
 		test.log(LogStatus.WARNING, "Test case Skipped by listener due to:- " + result.getThrowable());
 		closeBrowser();
-	 }
+	  }
+	   
 	}
 }
