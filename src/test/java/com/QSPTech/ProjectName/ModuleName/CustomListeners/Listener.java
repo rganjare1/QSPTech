@@ -83,12 +83,12 @@ public class Listener extends TestBase implements ITestListener {
 
 		System.out.println(testCaseName + " Test case is skipped by listener as Run mode set to N");
 		Reporter.log(testCaseName + " Test case is skipped by listener as Run mode set to N");
-		// System.out.println(testCaseName +
-		// "****************************************************");
+		
 	   if (skip == "No") {
 		Reporter.log("Test case is skipped by listener due to:-:" + result.getMethod().getMethodName());
 		test.log(LogStatus.WARNING, "Test case Skipped by listener due to:- " + result.getThrowable());
 		closeBrowser();
-	 }
+	  }
+	   
 	}
 }
