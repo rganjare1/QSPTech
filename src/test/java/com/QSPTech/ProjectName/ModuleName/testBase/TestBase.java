@@ -62,13 +62,13 @@ public class TestBase {
 	public static void launchingBrowser() {
 		
 		if (config.getProperty("Browser").equalsIgnoreCase("Chrome")) {
-			System.setProperty("webdriver.chrome.driver", "E:\\Study Material\\Automation_World-Training\\workspace\\QSPTech_Batch\\src\\test\\resources\\drivers\\chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver", "C:\\Automation_Testing\\WorkSpace\\QSPTech-feature_dhanu\\src\\test\\resources\\drivers\\chromedriver.exe");
 			driver = new ChromeDriver();	// created the object of ChromeDriver and assigned to Webdriver interface	
 		} else if (config.getProperty("Browser").equalsIgnoreCase("Firefox")) {
-			System.setProperty("webdriver.gecko.driver", "E:\\Study Material\\Selenium\\Drivers\\geckodriver_win64\\geckodriver.exe");
+			System.setProperty("webdriver.gecko.driver", "C:\\Automation_Testing\\WorkSpace\\QSPTech-feature_dhanu\\src\\test\\resources\\drivers\\geckodriver.exe");
 			driver = new FirefoxDriver();
 		} else if (config.getProperty("Browser").equalsIgnoreCase("IE")) {
-			System.setProperty("webdriver.ie.driver", "E:\\Study Material\\Selenium\\Drivers\\IEDriverServer_Win32_2.48.0\\IEDriverServer.exe");
+			System.setProperty("webdriver.ie.driver", "C:\\Automation_Testing\\WorkSpace\\QSPTech-feature_dhanu\\src\\test\\resources\\drivers\\IEDriverServer.exe");
 			driver = new InternetExplorerDriver();
 		}
 			

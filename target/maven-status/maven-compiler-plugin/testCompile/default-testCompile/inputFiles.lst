@@ -1,22 +1,15 @@
-E:\Study Material\Automation_World-Training\workspace\QSPTech_Batch\src\test\java\com\QSPTech\ProjectName\ModuleName\testBase\TestBase.java
-E:\Study Material\Automation_World-Training\workspace\QSPTech_Batch\src\test\java\com\QSPTech\ProjectName\ModuleName\commonMethods\commonMethods.java
-E:\Study Material\Automation_World-Training\workspace\QSPTech_Batch\src\test\java\com\QSPTech\ProjectName\ModuleName\pages\Create_An_Account_Page_Factory.java
-E:\Study Material\Automation_World-Training\workspace\QSPTech_Batch\src\test\java\com\QSPTech\ProjectName\ModuleName\testCases\TestMaven1.java
-E:\Study Material\Automation_World-Training\workspace\QSPTech_Batch\src\test\java\com\QSPTech\ProjectName\ModuleName\testCases\ReadingDataFromXlsx.java
-E:\Study Material\Automation_World-Training\workspace\QSPTech_Batch\src\test\java\com\QSPTech\ProjectName\ModuleName\interfaceTest\WebDriver.java
-E:\Study Material\Automation_World-Training\workspace\QSPTech_Batch\src\test\java\com\QSPTech\ProjectName\ModuleName\testCases\TC002_Create_an_Account.java
-E:\Study Material\Automation_World-Training\workspace\QSPTech_Batch\src\test\java\com\QSPTech\ProjectName\ModuleName\testCases\TC003_Create_an_Account.java
-E:\Study Material\Automation_World-Training\workspace\QSPTech_Batch\src\test\java\com\QSPTech\ProjectName\ModuleName\testCases\TC001_Create_an_Account.java
-E:\Study Material\Automation_World-Training\workspace\QSPTech_Batch\src\test\java\com\QSPTech\ProjectName\ModuleName\testCases\TC004_Create_an_Account.java
-E:\Study Material\Automation_World-Training\workspace\QSPTech_Batch\src\test\java\com\QSPTech\ProjectName\ModuleName\CustomListeners\RetryListener.java
-E:\Study Material\Automation_World-Training\workspace\QSPTech_Batch\src\test\java\com\QSPTech\ProjectName\ModuleName\interfaceTest\ChromeDriver.java
-E:\Study Material\Automation_World-Training\workspace\QSPTech_Batch\src\test\java\com\QSPTech\ProjectName\ModuleName\interfaceTest\TestInterface.java
-E:\Study Material\Automation_World-Training\workspace\QSPTech_Batch\src\test\java\com\QSPTech\ProjectName\ModuleName\interfaceTest\FirefoxDriver.java
-E:\Study Material\Automation_World-Training\workspace\QSPTech_Batch\src\test\java\com\QSPTech\ProjectName\ModuleName\CustomListeners\Retry.java
-E:\Study Material\Automation_World-Training\workspace\QSPTech_Batch\src\test\java\com\QSPTech\ProjectName\ModuleName\interfaceTest\InternetExplorerDriver.java
-E:\Study Material\Automation_World-Training\workspace\QSPTech_Batch\src\test\java\com\QSPTech\ProjectName\ModuleName\testCases\AssertTest.java
-E:\Study Material\Automation_World-Training\workspace\QSPTech_Batch\src\test\java\com\QSPTech\ProjectName\ModuleName\pages\HomePage_Page_Factory.java
-E:\Study Material\Automation_World-Training\workspace\QSPTech_Batch\src\test\java\com\QSPTech\ProjectName\ModuleName\CustomListeners\Listener.java
-E:\Study Material\Automation_World-Training\workspace\QSPTech_Batch\src\test\java\com\QSPTech\ProjectName\ModuleName\pages\HomePage.java
-E:\Study Material\Automation_World-Training\workspace\QSPTech_Batch\src\test\java\com\QSPTech\ProjectName\ModuleName\interfaceTest\TestOverride.java
-E:\Study Material\Automation_World-Training\workspace\QSPTech_Batch\src\test\java\com\QSPTech\ProjectName\ModuleName\pages\Create_An_Account.java
+C:\Automation_Testing\WorkSpace\QSPTech-feature_dhanu\src\test\java\com\QSPTech\ProjectName\ModuleName\testCases\TC001_Create_an_Account.java
+C:\Automation_Testing\WorkSpace\QSPTech-feature_dhanu\src\test\java\com\QSPTech\ProjectName\ModuleName\pages\HomePage_Page_Factory.java
+C:\Automation_Testing\WorkSpace\QSPTech-feature_dhanu\src\test\java\com\QSPTech\ProjectName\ModuleName\CustomListeners\Listener.java
+C:\Automation_Testing\WorkSpace\QSPTech-feature_dhanu\src\test\java\com\QSPTech\ProjectName\ModuleName\testCases\TC006_SendingMailFeature.java
+C:\Automation_Testing\WorkSpace\QSPTech-feature_dhanu\src\test\java\com\QSPTech\ProjectName\ModuleName\commonMethods\commonMethods.java
+C:\Automation_Testing\WorkSpace\QSPTech-feature_dhanu\src\test\java\com\QSPTech\ProjectName\ModuleName\CustomListeners\Retry.java
+C:\Automation_Testing\WorkSpace\QSPTech-feature_dhanu\src\test\java\com\QSPTech\ProjectName\ModuleName\pages\HomePage.java
+C:\Automation_Testing\WorkSpace\QSPTech-feature_dhanu\src\test\java\com\QSPTech\ProjectName\ModuleName\testBase\TestBase.java
+C:\Automation_Testing\WorkSpace\QSPTech-feature_dhanu\src\test\java\com\QSPTech\ProjectName\ModuleName\pages\Create_An_Account.java
+C:\Automation_Testing\WorkSpace\QSPTech-feature_dhanu\src\test\java\com\QSPTech\ProjectName\ModuleName\pages\Create_An_Account_Page_Factory.java
+C:\Automation_Testing\WorkSpace\QSPTech-feature_dhanu\src\test\java\com\QSPTech\ProjectName\ModuleName\testCases\TC002_Create_an_Account.java
+C:\Automation_Testing\WorkSpace\QSPTech-feature_dhanu\src\test\java\com\QSPTech\ProjectName\ModuleName\testCases\TC004_Create_an_Account.java
+C:\Automation_Testing\WorkSpace\QSPTech-feature_dhanu\src\test\java\com\QSPTech\ProjectName\ModuleName\CustomListeners\RetryListener.java
+C:\Automation_Testing\WorkSpace\QSPTech-feature_dhanu\src\test\java\com\QSPTech\ProjectName\ModuleName\testCases\TC003_Create_an_Account.java
+C:\Automation_Testing\WorkSpace\QSPTech-feature_dhanu\src\test\java\com\QSPTech\ProjectName\ModuleName\testCases\TC005_Create_an_Account.java
