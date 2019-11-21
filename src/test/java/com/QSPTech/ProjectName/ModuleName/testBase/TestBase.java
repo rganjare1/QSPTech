@@ -62,13 +62,13 @@ public class TestBase {
 	public static void launchingBrowser() {
 		
 		if (config.getProperty("Browser").equalsIgnoreCase("Chrome")) {
-			System.setProperty("webdriver.chrome.driver", "C:\\Automation_Testing\\WorkSpace\\QSPTech-feature_dhanu\\src\\test\\resources\\drivers\\chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver", "C:\\Automation_Testing\\WorkSpace\\QSPTech\\src\\test\\resources\\drivers\\chromedriver.exe");
 			driver = new ChromeDriver();	// created the object of ChromeDriver and assigned to Webdriver interface	
 		} else if (config.getProperty("Browser").equalsIgnoreCase("Firefox")) {
-			System.setProperty("webdriver.gecko.driver", "C:\\Automation_Testing\\WorkSpace\\QSPTech-feature_dhanu\\src\\test\\resources\\drivers\\geckodriver.exe");
+			System.setProperty("webdriver.gecko.driver", "C:\\Automation_Testing\\WorkSpace\\QSPTech\\src\\test\\resources\\drivers\\geckodriver.exe");
 			driver = new FirefoxDriver();
 		} else if (config.getProperty("Browser").equalsIgnoreCase("IE")) {
-			System.setProperty("webdriver.ie.driver", "C:\\Automation_Testing\\WorkSpace\\QSPTech-feature_dhanu\\src\\test\\resources\\drivers\\IEDriverServer.exe");
+			System.setProperty("webdriver.ie.driver", "C:\\Automation_Testing\\WorkSpace\\QSPTech\\src\\test\\resources\\drivers\\IEDriverServer.exe");
 			driver = new InternetExplorerDriver();
 		}
 			
@@ -102,7 +102,7 @@ public class TestBase {
 			
 		String timeStamp = new SimpleDateFormat("yyyy.MM.dd.HH.mm.ss").format(new Date());
 			String reportDirectory = new File(System.getProperty("user.dir")).getAbsolutePath()
-					+ "\\src\\test\\resources\\screenShots\\screnshot_"+timeStamp+ ".png";
+					+ "\\src\\test\\resources\\screenShots\\Passed\\" +testCaseName+"_"+timeStamp+ ".png";
 			
 			File destFile = new File(reportDirectory);
 
